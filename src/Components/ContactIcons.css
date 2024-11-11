@@ -1,0 +1,54 @@
+.contact-icons {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 20px; 
+  padding: 1px;
+  border-radius: 2px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon img {
+  width: 90%; 
+  height: 90%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icon.gmail {
+  background-color: black;
+}
+
+.icon.phone {
+  background-color: #ff4f4f;
+}
+
+.icon.whatsapp {
+  background-color: #25d366;
+}
+
+/* Hover and Active Effects */
+.icon:hover,
+.icon.active {
+  width: 80px;
+  transform: translateX(20px);
+}
+
+.icon:hover img,
+.icon.active img {
+  transform: scale(1.2); 
+}

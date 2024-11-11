@@ -1,0 +1,50 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #222;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  
+  .footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin: 1rem;
+  }
+  
+  
+  .footer ul {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+  
+ 
+  .footer a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+  }
+  
+  .footer a:hover {
+    color: #646cff;
+    text-decoration: underline; 
+  }
+  
+  
+  .contact-info {
+    margin-top: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  
+  .contact-item .icon {
+    margin-right: 0.5rem;
+  }
+  

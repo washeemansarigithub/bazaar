@@ -1,0 +1,9 @@
+.service{
+    height: 100px;
+    width: auto;
+    background-color: aliceblue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    justify-content:first baseline;
+}
